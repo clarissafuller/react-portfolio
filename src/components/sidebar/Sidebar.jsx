@@ -1,16 +1,20 @@
 import React from "react";
 import "./sidebar.css";
-import Logo from "../../assets/logo.svg";
+// import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
   return (
     <>
       <aside className="aside">
         <a href="#home" className="navLogo">
-          <img src={Logo} alt="home logo" />
+          {/* <img src={Logo} alt="home logo" /> */}
         </a>
-
-        <nav className="nav">
+      </aside>
+    </>
+  );
+};
+{
+  /* <nav className="nav">
           <div className="navMenu">
             <ul className="navList">
               <li className="navItem">
@@ -38,6 +42,7 @@ const Sidebar = () => {
       </div>
     </>
   );
-};
+}; */
+}
 
 export default Sidebar;
