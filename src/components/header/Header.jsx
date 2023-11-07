@@ -2,12 +2,16 @@ import React from "react";
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
+          <li className="nav-item">
+            <a className="item" href="/">
+              Home
+            </a>
+            <a className="item" href="/about">
+              About
+            </a>
           </li>
         </ul>
       </nav>

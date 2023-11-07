@@ -10,7 +10,6 @@ const App = () => {
     <>
       <main className="main">
         <Header />
-        <Portfolio />
         <Outlet />
         <Footer />
       </main>
