@@ -41,7 +41,7 @@ This will start the development server and open your portfolio in your default w
 
 Explore Your Portfolio: You're all set! You can now explore and customize your portfolio. Make any desired changes to the code, and they will be automatically reflected in your browser as you save the files.
 
-[My Portfolio](https://github.com/clarissafuller/react-portfolio)
+[My Portfolio](https://main--gregarious-starlight-c8a9b3.netlify.app/)
 
 ## Usage/Tests
 
