@@ -27,8 +27,7 @@ To run this portfolio on your local machine, follow these steps:
 
 Clone the Repository: Start by cloning this repository to your local machine. You can do this using the following command in your terminal:
 
-git clone https://github.com/yourusername/your-portfolio.git
-Replace yourusername with your GitHub username and your-portfolio with the name of your repository.
+git clone https://github.com/clarissafuller/react-portfolio.git
 
 Navigate to the Project Directory: Change your working directory to the project's folder:
 cd your-portfolio
@@ -42,22 +41,18 @@ This will start the development server and open your portfolio in your default w
 
 Explore Your Portfolio: You're all set! You can now explore and customize your portfolio. Make any desired changes to the code, and they will be automatically reflected in your browser as you save the files.
 
-[My Portfolio](https://shape-up-4300c0d6cf80.herokuapp.com/login)
+[My Portfolio](https://github.com/clarissafuller/react-portfolio)
 
 ## Usage/Tests
 
-Navigating our interface is simple, in order to create a new routine, click the "create a new workout" button, or click the same link in the navigation bar.
-Once on the Routine page, search for a workout, add your desired workout with your desired weight( in lbs), number of Sets, and number of Reps. When you click the "add to routine" button, your new routine will display on the left of the page, and allow you to edit the name of the Routine and the day of the week you would like to schedule it for.
-The process should look something like this:
-
-![Shape-Up login in action](/public/assets/images/screenshot.png)
-![Shape-Up homepage in action](/public/assets/images/screenshot1.png)
-![Shape-Up make-routine in action](/public/assets/images/screenshot2.png)
-![Shape-Up added routine in action](/public/assets/images/screenshot3.png)
+Navigating our interface is simple! Just click links to be navigated to repositories, Github pages, or to other pages from the home screen!
+The pages should look something like this:
+![regergeq](https://github.com/clarissafuller/react-portfolio/assets/141360959/c4e2dd6c-06d8-41be-bfd6-c9ae26b0fd57)
+![fdwsfsa](https://github.com/clarissafuller/react-portfolio/assets/141360959/f33e2a4c-15bd-48b3-bbad-8f7d6e5ff950)
 
 ## Contributing
 
-There were no collaborators on this project but you can check out the project repos in the portfolio to see all the contributors on some of my other porjects!
+There were no collaborators on this project but you can check out the project repos in the portfolio to see all the contributors on some of my other projects!
 
 Tutorials followed include Columbia University Coding Bootcamp 2023, as well as:
 
