@@ -12,6 +12,15 @@ function Header() {
             <a className="item" href="/about">
               About
             </a>
+            <a className="item" href="/portfolio">
+              Portfolio
+            </a>
+            <a className="item" href="/resume">
+              Resume
+            </a>
+            <a className="item" href="/pricing">
+              Pricing
+            </a>
           </li>
         </ul>
       </nav>
