@@ -1,5 +1,4 @@
 import React from "react";
-import "./app.css";
 import Portfolio from "./components/portfolio/Portfolio";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";

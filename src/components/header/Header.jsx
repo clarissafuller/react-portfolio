@@ -4,8 +4,8 @@ function Header() {
   return (
     <header className="header">
       <nav>
-        <ul>
-          <li className="nav-item">
+        <div>
+          <div className="nav-item">
             <a className="item" href="/">
               Home
             </a>
@@ -21,8 +21,8 @@ function Header() {
             <a className="item" href="/pricing">
               Pricing
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </header>
   );

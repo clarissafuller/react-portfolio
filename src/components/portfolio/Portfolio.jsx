@@ -1,29 +1,49 @@
 import React from "react";
-import "../portfolio/portfolio.css";
+import "./portfolio.css";
 
 const Portfolio = () => {
-  const project = {
-    title: "Top5",
-    imageSrc: "src/assets/tr3trqtert.jpg",
-    deployedLink: "https://top5-123-dd46eff5dfcf.herokuapp.com/",
-    repositoryLink: "https://github.com/rossgilman402/Top5",
-  };
+  const projects = [
+    {
+      title: "Top5",
+      projectImage: "src/assets/tr3trqtert.jpg",
+      repoLink: "https://github.com/rossgilman402/Top5",
+      deployLink: "https://top5-123-dd46eff5dfcf.herokuapp.com/",
+    },
+    {
+      title: "ShapeUp",
+      projectImage: "src/assets/screenshot.png",
+      repoLink: "https://github.com/clarissafuller/shape-up",
+      deployLink: "https://shape-up-4300c0d6cf80.herokuapp.com/login",
+    },
+  ];
 
   return (
-    <div className="portfolio">
-      <h1 className="my-projects">My Projects</h1>
-      <div className="project">
-        <h3>{project.title}</h3>
-        <img className="port-img" src={project.imageSrc} alt={project.title} />
-        <div>
-          <a className="link" href={project.deployedLink}>
-            Deployed Project
-          </a>
-          <a className="link" href={project.repositoryLink}>
-            Repository
-          </a>
+    <div className="portfolio-container">
+      {projects.map((project, index) => (
+        <div key={index} className="card-content">
+          <h3>{project.title}</h3>
+          <div
+            className="card-image"
+            style={{ backgroundImage: `${project.projectImage}` }}
+          />
+          <div className="card-links">
+            <a
+              href={project.repoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repository
+            </a>
+            <a
+              href={project.deployLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deployed Page
+            </a>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 };
