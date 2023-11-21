@@ -1,9 +1,3 @@
-main {
-  background-image: url(src/assets/de77f22f708624e15102fb8d92a8c162.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .title-container {
   background-color: var(--cream-color);
   display: flex;

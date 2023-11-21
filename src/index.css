@@ -86,3 +86,7 @@ body {
 .footer {
   width: 100%;
 }
+
+main {
+  background-color: var(--teal-color);
+}
