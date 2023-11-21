@@ -1,7 +1,12 @@
 import React from "react";
+import ResumeList from "../../components/resumeList/ResumeList";
 
 const Resume = () => {
-  return <div>Resume</div>;
+  return (
+    <>
+      <ResumeList />
+    </>
+  );
 };
 
 export default Resume;
