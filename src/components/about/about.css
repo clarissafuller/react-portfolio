@@ -8,8 +8,14 @@
 .pic {
   max-width: 50%;
   height: 200px;
+  border-radius: 106px;
 }
 .about-text {
   text-align: center;
   padding: 10px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

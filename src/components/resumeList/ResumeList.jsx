@@ -26,7 +26,8 @@ const Resume = () => {
   ];
   return (
     <>
-      <div className="pricing-card">
+      <div></div>
+      <div className="services-card">
         {services.map((services, index) => (
           <div key={index} className="card-content">
             <h3>{services.name}</h3>
