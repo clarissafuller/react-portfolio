@@ -5,6 +5,8 @@
   margin: 87px;
   font-size: 160%;
   flex-direction: column;
+  box-shadow: 0 4px 8px rgb(24 24 24);
+  padding: 10px;
 }
 
 .button-box {
@@ -12,7 +14,17 @@
   justify-content: flex-end;
 }
 
-.main {
+.main-home {
   display: flex;
   flex-direction: column;
+}
+
+.contact-button {
+  background-color: var(--orange-color);
+  margin-right: 24%;
+  font-size: x-large;
+  border: var(--cream-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgb(24 24 24);
+  padding: 8px;
 }
