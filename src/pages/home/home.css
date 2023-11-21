@@ -4,6 +4,15 @@
   justify-content: center;
   margin: 87px;
   font-size: 160%;
-  border: 5px;
-  border-color: var(--teal-color);
+  flex-direction: column;
+}
+
+.button-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
