@@ -7,6 +7,7 @@ import Home from "./pages/home/Home.jsx";
 import Portfolio from "./pages/portfolio/Portfolio.jsx";
 import Resume from "./pages/resume/Resume.jsx";
 import Pricing from "./pages/pricing/Pricing.jsx";
+import ComingSoon from "./pages/comingSoon/ComingSoon.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,11 +28,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/resume",
-        element: <Resume />,
+        element: <ComingSoon />,
       },
       {
         path: "/pricing",
-        element: <Pricing />,
+        element: <ComingSoon />,
       },
     ],
   },
