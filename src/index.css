@@ -84,14 +84,14 @@ body {
 .footer {
   width: 100%;
   bottom: 0;
-  position: absolute;
 }
 
 main {
   background-image: url(https://cdn.openart.ai/stable_diffusion/7ab795ba65d72ab94185e6bf96d3cbb27b386ee4_2000x2000.webp);
   background-size: cover;
-  height: 100%;
+  height: max-content;
 }
+
 #root {
   height: 100%;
 }

@@ -1,23 +1,29 @@
 import React from "react";
 import "./about.css";
+import Github from "../github/Github";
 
 const About = () => {
   const yourName = "Clarissa Fuller";
   const imageUrl = "/images/polaroid.png";
-  const githubLink = "https://github.com/clarissafuller";
-  const aboutText =
-    "I am a passionate developer with a love for coding. I enjoy creating web applications and contributing to open-source projects.";
 
   return (
     <div className="about">
       <div className="top-container">
-        <h2>{yourName}</h2>
-        <img className="pic" src={imageUrl} alt={yourName} />
+        <div className="text container">
+          <h2>Clarissa Fuller</h2>
+          <p className="about-text">
+            I am a passionate developer with a love for coding. I enjoy creating
+            web applications and contributing to open-source projects.
+          </p>
+        </div>
+        <img className="pic" src="/images/polaroid.png" alt="clarissa image" />
       </div>
-      <p className="about-text">{aboutText}</p>
-      <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
+      <div className="bottom-container">
+        <img className="pic2" src="/images/squiggly.png" alt="clarissa image" />
+        <div className="github-stats">
+          <Github />
+        </div>
+      </div>
     </div>
   );
 };
