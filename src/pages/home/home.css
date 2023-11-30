@@ -28,3 +28,12 @@
   box-shadow: 0 4px 8px rgb(24 24 24);
   padding: 8px;
 }
+
+.icon {
+  height: 45px;
+  padding: 12px;
+}
+
+.social-links {
+  margin-right: 24%;
+}
