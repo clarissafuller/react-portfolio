@@ -3,9 +3,9 @@ import About from "../../components/about/About";
 const App = () => {
   return (
     <>
-      <main className="main">
+      <div>
         <About />
-      </main>
+      </div>
     </>
   );
 };

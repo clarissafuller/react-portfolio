@@ -3,7 +3,7 @@ import "./about.css";
 
 const About = () => {
   const yourName = "Clarissa Fuller";
-  const imageUrl = "https://avatars.githubusercontent.com/u/141360959?v=4";
+  const imageUrl = "/images/polaroid.png";
   const githubLink = "https://github.com/clarissafuller";
   const aboutText =
     "I am a passionate developer with a love for coding. I enjoy creating web applications and contributing to open-source projects.";
