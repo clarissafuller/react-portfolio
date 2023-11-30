@@ -7,9 +7,11 @@ const Github = () => {
   });
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/clarissafuller/react-portfolio")
+    fetch("https://api.github.com/users/clarissafuller/repos")
       .then((response) => response.json())
+
       .then((json) => {
+        console.log(json);
         setGitHubStats({
           stargazers_count: json.stargazers_count,
           forks_count: json.forks_count,

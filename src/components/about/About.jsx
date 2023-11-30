@@ -3,9 +3,6 @@ import "./about.css";
 import Github from "../github/Github";
 
 const About = () => {
-  const yourName = "Clarissa Fuller";
-  const imageUrl = "/images/polaroid.png";
-
   return (
     <div className="about">
       <div className="top-container">
