@@ -63,8 +63,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fff4dc;
-  color: black;
+  color: var(--cream-color);
   font-size: 150%;
 }
 
@@ -72,9 +71,7 @@ body {
   padding: 10px;
   color: black;
 }
-.nav-item:hover {
-  color: var(--orange-color);
-}
+
 .item {
   margin: 30px;
 }
@@ -90,9 +87,19 @@ body {
 }
 
 main {
-  background-color: var(--teal-color);
+  background-image: url(https://cdn.openart.ai/stable_diffusion/7ab795ba65d72ab94185e6bf96d3cbb27b386ee4_2000x2000.webp);
+  background-size: cover;
   height: 100%;
 }
 #root {
   height: 100%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: var(--red-color);
+  transition: color 0.3s ease;
 }

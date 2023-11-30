@@ -1,18 +1,14 @@
 .title-container {
-  background-color: var(--cream-color);
   display: flex;
   justify-content: center;
-  margin: 87px;
-  font-size: 160%;
+  font-size: 200%;
   flex-direction: column;
   box-shadow: 0 4px 8px rgb(24 24 24);
   padding: 10px;
-  background-image: url(https://cdn.openart.ai/stable_diffusion/7ab795ba65d72ab94185e6bf96d3cbb27b386ee4_2000x2000.webp);
-}
-
-.button-box {
-  display: flex;
-  justify-content: flex-end;
+  color: var(--cream-color);
+  max-width: 100%;
+  margin: 1%;
+  margin-top: 5%;
 }
 
 .main-home {
@@ -21,8 +17,7 @@
 }
 
 .contact-button {
-  background-color: var(--orange-color);
-  margin-right: 24%;
+  background-color: var(--cream-color);
   font-size: x-large;
   border: var(--cream-color);
   border-radius: 16px;
@@ -35,6 +30,6 @@
   padding: 12px;
 }
 
-.social-links {
-  margin-right: 24%;
+h3 {
+  margin-bottom: 200px;
 }
