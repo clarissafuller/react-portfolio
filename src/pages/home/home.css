@@ -7,6 +7,7 @@
   flex-direction: column;
   box-shadow: 0 4px 8px rgb(24 24 24);
   padding: 10px;
+  background-image: url(https://cdn.openart.ai/stable_diffusion/7ab795ba65d72ab94185e6bf96d3cbb27b386ee4_2000x2000.webp);
 }
 
 .button-box {
