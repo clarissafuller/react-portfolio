@@ -20,6 +20,7 @@ const App = () => {
           />
         </div>
       </div>
+
       <div className="bottom-container">
         {/* <img className="pic2" src="/images/squiggly.png" alt="clarissa image" /> */}
         <div className="github-stats"></div>

@@ -12,17 +12,17 @@ const Location = () => {
       <div className="location-box">
         <div className="location-section">
           Current Location{" "}
-          <FontAwesomeIcon lassName="icon" icon={faLocationDot} />
+          <FontAwesomeIcon className="icon" icon={faLocationDot} />
           <p>New York Metropolitan Area</p>
         </div>
         <div className="location-section">
           Relocation Possibilities{" "}
-          <FontAwesomeIcon lassName="icon" icon={faLocationDot} />
+          <FontAwesomeIcon className="icon" icon={faLocationDot} />
           <p>Maryland, DC, Virginia</p>
         </div>
         <div className="location-section">
           Always Avaiable for Work{" "}
-          <FontAwesomeIcon lassName="icon" icon={faHouseLaptop} />
+          <FontAwesomeIcon className="icon" icon={faHouseLaptop} />
           <p>Remote</p>
         </div>
       </div>

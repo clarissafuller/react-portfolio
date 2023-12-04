@@ -19,9 +19,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: -200px;
   border-bottom: 6px solid var(--cream-color);
-  margin-bottom: -186px;
 }
 .name-text {
   font-size: 100%;
