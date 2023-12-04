@@ -6,7 +6,7 @@
 }
 
 img {
-  width: 100%;
+  width: 125%;
   height: auto;
 }
 
@@ -43,6 +43,7 @@ button {
   background-color: var(--red-color);
   padding: 10px;
   border: 2px solid black;
+  width: 65%;
 }
 .title-text {
   text-shadow: -5px 4px 8px rgb(255 255 255 / 86%);
