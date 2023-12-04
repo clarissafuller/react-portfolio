@@ -13,11 +13,19 @@ const DateTimeDisplay = () => {
     return () => clearInterval(intervalId);
   }, []); // Empty dependency array ensures the effect runs only once on mount
 
-  const formattedDateTime = currentDateTime.toLocaleString();
+  const options = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+
+  const formattedDate = currentDateTime.toLocaleDateString(undefined, options);
+  const formattedTime = currentDateTime.toLocaleTimeString();
 
   return (
     <div>
-      <p>{formattedDateTime}</p>
+      <p>{formattedDate}</p>
+      <p>{formattedTime}</p>
     </div>
   );
 };
