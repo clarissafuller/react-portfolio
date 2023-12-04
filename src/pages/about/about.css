@@ -6,8 +6,9 @@
 
 .pic {
   box-shadow: 0 4px 8px rgb(24 24 24);
-  width: 300px;
+  width: 400px;
   padding: 10px;
+  margin: 39px;
 }
 .about-text {
   text-align: center;

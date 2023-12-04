@@ -13,8 +13,12 @@ const App = () => {
             I am a passionate developer with a love for coding. I enjoy creating
             web applications and contributing to open-source projects.
           </p>
+          <img
+            className="pic"
+            src="/images/polaroid.png"
+            alt="clarissa image"
+          />
         </div>
-        <img className="pic" src="/images/polaroid.png" alt="clarissa image" />
       </div>
       <div className="bottom-container">
         {/* <img className="pic2" src="/images/squiggly.png" alt="clarissa image" /> */}
