@@ -6,6 +6,8 @@
 
 .pic {
   box-shadow: 0 4px 8px rgb(24 24 24);
+  width: 300px;
+  padding: 10px;
 }
 .about-text {
   text-align: center;
@@ -16,10 +18,14 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: -200px;
+  border-bottom: 6px solid var(--cream-color);
+  margin-bottom: -186px;
 }
 .name-text {
   font-size: 100%;
   padding: 34px;
+  color: var(--cream-color);
 }
 
 .pic:hover {
@@ -28,7 +34,7 @@
   transition: color 0.3s ease;
 }
 
-h2:hover {
+.name-text:hover {
   text-shadow: 0 0 20px 5px rgba(201, 130, 37, 0.7);
   transform: scale(1.05);
   transition: color 0.3s ease;
@@ -41,7 +47,10 @@ h2:hover {
 }
 
 .about-text {
-  font-size: 100%;
+  font-size: 56%;
+  background-color: var(--teal-color);
+  width: 358px;
+  border: 6px solid var(--cream-color);
 }
 
 .pic2:hover {
@@ -52,5 +61,6 @@ h2:hover {
 .bottom-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 32px;
 }

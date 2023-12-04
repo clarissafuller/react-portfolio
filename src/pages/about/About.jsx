@@ -1,5 +1,6 @@
 import Location from "../../components/location/Location";
 import Github from "../../components/github/Github";
+import SocialLinks from "../../components/socialLinks/SocialLinks";
 import "./about.css";
 
 const App = () => {
@@ -17,11 +18,10 @@ const App = () => {
       </div>
       <div className="bottom-container">
         {/* <img className="pic2" src="/images/squiggly.png" alt="clarissa image" /> */}
-        <div className="github-stats">
-          <Github />
-        </div>
+        <div className="github-stats"></div>
         <Location />
       </div>
+      <SocialLinks />
     </div>
   );
 };

@@ -98,7 +98,7 @@ main {
 }
 
 a {
-  color: black;
+  color: var(--cream-color);
 }
 
 a:hover {
