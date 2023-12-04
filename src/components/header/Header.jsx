@@ -18,9 +18,6 @@ function Header() {
             <a className="item" href="/resume">
               Resume
             </a>
-            <a className="item" href="/pricing">
-              Pricing
-            </a>
           </div>
         </div>
       </nav>

@@ -19,12 +19,14 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
+      <h1 className="projects">Projects</h1>
       {projects.map((project, index) => (
         <div key={index} className="card-content">
           <h3>{project.title}</h3>
-          <div
+          <img
             className="card-image"
-            style={{ backgroundImage: `${project.projectImage}` }}
+            src={project.projectImage}
+            alt="project image"
           />
           <div className="card-links">
             <a

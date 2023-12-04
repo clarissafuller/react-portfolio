@@ -30,10 +30,6 @@ const router = createBrowserRouter([
         path: "/resume",
         element: <ComingSoon />,
       },
-      {
-        path: "/pricing",
-        element: <ComingSoon />,
-      },
     ],
   },
 ]);
