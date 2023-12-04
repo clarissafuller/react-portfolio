@@ -5,13 +5,13 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Top5",
-      projectImage: "image/top5.jpg",
+      projectImage: "images/top5.jpg",
       repoLink: "https://github.com/rossgilman402/Top5",
       deployLink: "https://top5-123-dd46eff5dfcf.herokuapp.com/",
     },
     {
       title: "ShapeUp",
-      projectImage: "image/shapeup.png",
+      projectImage: "images/shapeup.png",
       repoLink: "https://github.com/clarissafuller/shape-up",
       deployLink: "https://shape-up-4300c0d6cf80.herokuapp.com/login",
     },
