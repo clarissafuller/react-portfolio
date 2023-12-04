@@ -1,0 +1,11 @@
+.skills-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  background-color: var(--cream-color);
+  color: var(--red-color);
+  margin: 27px;
+  box-shadow: -6px 9px 8px rgb(44 44 44 / 86%);
+}

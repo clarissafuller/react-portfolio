@@ -1,3 +1,9 @@
 .top-box {
   display: flex;
+  flex-direction: column;
+}
+
+.resume-box {
+  display: flex;
+  flex-direction: row;
 }

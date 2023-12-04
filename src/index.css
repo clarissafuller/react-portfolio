@@ -80,6 +80,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 30px;
 }
 .footer {
   width: 100%;
