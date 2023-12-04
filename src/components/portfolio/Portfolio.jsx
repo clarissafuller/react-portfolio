@@ -22,7 +22,7 @@ const Portfolio = () => {
       <h1 className="projects">Projects</h1>
       {projects.map((project, index) => (
         <div key={index} className="card-content">
-          <h3>{project.title}</h3>
+          <h3 className="title">{project.title}</h3>
           <img
             className="card-image"
             src={project.projectImage}
@@ -35,13 +35,6 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               Repository
-            </a>
-            <a
-              href={project.deployLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Deployed Page
             </a>
           </div>
         </div>

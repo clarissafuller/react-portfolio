@@ -36,19 +36,25 @@
 
 .card-links a {
   text-decoration: none;
-  color: #333;
+  color: var(--cream-color);
   font-weight: bold;
 }
 
 .card-links a:hover {
-  color: #007bff;
+  color: var(--orange-color);
 }
 
 .portfolio-container {
   display: flex;
-  margin-top: 40px;
+  margin-top: -188px;
   margin-bottom: 40px;
   justify-content: space-around;
   height: 1000px;
   align-items: center;
+  color: var(--cream-color);
+}
+
+.title {
+  font-size: 200%;
+  padding: 12px;
 }

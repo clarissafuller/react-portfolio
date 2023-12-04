@@ -6,6 +6,7 @@ import {
   faMedium,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import Contact from "../../components/contact/Contact";
 
 const Home = () => {
   return (
@@ -43,14 +44,9 @@ const Home = () => {
               <FontAwesomeIcon className="icon" icon={faLinkedin} />
             </a>
           </div>
-          <div className="button-box">
-            <a
-              href="https://clarissafuller.com/about"
-              className="contact-button"
-            >
-              Contact Me
-            </a>
-          </div>
+        </div>
+        <div className="contact-box">
+          <Contact />
         </div>
       </div>
     </>
