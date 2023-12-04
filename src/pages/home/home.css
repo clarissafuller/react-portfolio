@@ -34,3 +34,13 @@
 .third-line-text {
   margin-bottom: 200px;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.date-time {
+  display: flex;
+  justify-content: flex-end;
+}

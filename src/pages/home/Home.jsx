@@ -7,6 +7,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Contact from "../../components/contact/Contact";
+import Date from "../../components/date/Date";
 
 const Home = () => {
   return (
@@ -16,6 +17,9 @@ const Home = () => {
           <h1>Hi I'm</h1>
           <h1>CLARISSA</h1>
           <h3 className="third-line-text">i build things for the web</h3>
+          <div className="date-time">
+            <Date />
+          </div>
           <div className="social-links">
             {/* GitHub */}
             <a
@@ -45,9 +49,9 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="contact-box">
+        {/* <div className="contact-box">
           <Contact />
-        </div>
+        </div> */}
       </div>
     </>
   );
