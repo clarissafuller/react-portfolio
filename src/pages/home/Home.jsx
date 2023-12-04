@@ -15,7 +15,7 @@ const Home = () => {
         <div className="title-container">
           <h1>Hi I'm</h1>
           <h1>CLARISSA</h1>
-          <h3>i build things for the web</h3>
+          <h3 className="third-line-text">i build things for the web</h3>
           <div className="social-links">
             {/* GitHub */}
             <a

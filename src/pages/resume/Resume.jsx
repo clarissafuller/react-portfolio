@@ -1,10 +1,15 @@
 import React from "react";
-import ResumeList from "../../components/resumeList/ResumeList";
+import SkillsList from "../../components/skillsList/SkillsList";
+import Services from "../../components/services/Services";
+import "./resume.css";
 
 const Resume = () => {
   return (
     <>
-      <ResumeList />
+      <div className="top-box">
+        <SkillsList />
+        <Services />
+      </div>
     </>
   );
 };

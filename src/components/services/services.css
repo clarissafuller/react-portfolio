@@ -1,0 +1,11 @@
+.services-card {
+  color: var(--cream-color);
+  display: flex;
+  align-items: center;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
