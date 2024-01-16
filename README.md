@@ -47,8 +47,10 @@ Explore Your Portfolio: You're all set! You can now explore and customize your p
 
 Navigating our interface is simple! Just click links to be navigated to repositories, Github pages, or to other pages from the home screen!
 The pages should look something like this:
-![regergeq](https://github.com/clarissafuller/react-portfolio/assets/141360959/c4e2dd6c-06d8-41be-bfd6-c9ae26b0fd57)
-![fdwsfsa](https://github.com/clarissafuller/react-portfolio/assets/141360959/f33e2a4c-15bd-48b3-bbad-8f7d6e5ff950)
+![gtrgtvr](https://github.com/clarissafuller/react-portfolio/assets/141360959/6d56e019-37b1-4904-8b73-f5ceac9d60ce)
+![t4etfgr5](https://github.com/clarissafuller/react-portfolio/assets/141360959/9b349e9f-02de-40a0-be2a-8167cf4eefb3)
+![rfewfre3](https://github.com/clarissafuller/react-portfolio/assets/141360959/bee668ec-1ba8-41f2-b834-7fd1dc8454f1)
+
 
 ## Contributing
 
